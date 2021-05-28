@@ -1,0 +1,7 @@
+data=input("輸入值為:").split(",")
+data.sort()
+minn="".join(data)
+data.reverse()
+maxx="".join(data)
+ans=int(maxx)-int(minn)
+print("最大值數列與最小值數列差值為:",ans)
